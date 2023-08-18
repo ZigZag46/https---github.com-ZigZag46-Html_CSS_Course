@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Lesson</title>
+<style>
+.tweerijen {
+    grid-template-columns: 200px 75px;
+    display: grid;
+    color: aliceblue;
+    height: 50px;
+    }
+
+    .rij1 {
+        background-color: blue;
+    }
+
+    .rij2 {
+        background-color: blueviolet;
+    }
+
+
+   .oefening11b {
+        display: grid;
+        grid-template-columns: 50px 1fr 75px;
+    }
+
+    .grid11c {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        display: grid;
+        row-gap: 10px;
+        column-gap: 20px;
+        text-align: center;
+        
+        
+    }
+</style>
+
+</head>
+<body>
+        <div style="
+        display: grid;
+        grid-template-columns: 100px 1fr 1fr;">
+            <div style="background-color: aqua;">div 1</div>
+            <div style="background-color: rgb(226, 43, 128);">div 2</div>
+            <div style="background-color: chartreuse;">div 3 <p>hello</p></div>
+            
+        </div>
+
+        <div style="margin-top: 30px; display: grid;
+        grid-template-columns: 100px 100px 200px;">
+            <div style="background-color: aqua;">div 1</div>
+            <div style="background-color: rgb(226, 43, 128);">div 2 <p>text</p></div>
+            <div style="background-color: chartreuse;">div 3 <p>hello</p></div>
+            
+        </div>
+       
+            <div style="
+            margin-top: 30px;
+            display: grid;
+            grid-template-columns: 100px 1fr 2fr;
+            ">
+                <div style="background-color:
+                 aqua;">100PX</div>
+                <div style="background-color:
+                 rgb(226, 43, 128);">1fr</div>
+                <div style="background-color:
+                 rgb(43, 226, 58);">2fr</div>
+            </div>
+    
+        <div style=" 
+        height: 200px;
+        margin: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;">
+            <div style="background-color: aqua;">div 1</div>
+            <div style="background-color: rgb(226, 43, 128);">div 2</div>
+            <div style="background-color: aqua;">div 1</div>
+            <div style="background-color: rgb(226, 43, 128);">div 2</div>
+            <div style="background-color: aqua;">div 1</div>
+            <div style="background-color: rgb(226, 43, 128);">div 2</div>
+        </div>
+
+
+            <div class="tweerijen">
+                <p
+                class="rij1">
+                rij-1
+            </p>
+                <p class="rij2">
+                    rij-2
+                </p>
+            </div>
+
+
+            <div class="oefening11b">
+                <p style="background-color: red;"
+                class="col1">
+                col1
+            </p>
+            <p style="background-color: blue;" class="col2">
+                col2
+            </p>
+            <p style="background-color: green;" class="col3">
+                col3
+            </p>
+            </div>
+            <br>
+
+            
+            <div class="grid11c">
+
+                <p style="background-color: aqua;">col1</p>
+                <p style="background-color: blueviolet;">col2</p>
+                <p style="background-color: aqua;">col1</p>
+                <p style="background-color: blueviolet;">col2</p>
+                <p style="background-color: aqua;">col1</p>
+                <p style="background-color: blueviolet;">col2</p>
+                <p style="background-color: aqua;">col1</p>
+                <p style="background-color: blueviolet;">col2</p>
+                
+            </div>
+    </body>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lesson-14F</title>
+<style>
+
+
+body {
+    font-family: Arial;
+    margin: 0;
+    height: 3000px;
+}
+
+.sidebar-one {
+    position: fixed;
+    background-color: rgb(3, 0, 15);
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 75px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.picture {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 10px;
+}
+.sidebar-two {
+position: fixed;
+background-color: rgb(39, 39, 39);
+top: 0;
+bottom: 0;
+left: 75px;
+width: 160px;
+padding-top: 15px;
+padding-left: 15px;
+padding-right: 15px;
+}
+
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 10px;
+}
+
+.name {
+    color: white;
+    font-size: 14px;
+}
+
+.create-new {
+    color: gray;
+    font-size: 25px;
+}
+
+.channel1 {
+    color: gray;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 35px;
+}
+
+
+</style>
+</head>
+<body>
+    
+        <div class="sidebar-one">
+            <div>
+                <img class="picture" src="/thumbnails/cat.jpg" alt=""></div>
+            <div>
+                <img class="picture" src="/thumbnails/cat2.jpg" alt=""></div>
+            <div>
+                <img class="picture" src="/thumbnails/dog.jpg" alt=""></div>
+        </div>
+        <div class="sidebar-two">
+            <div class="header">
+                <div class="name">INFO</div>
+                <div class="create-new">+</div>
+            </div>
+            <div class="channel1"># new-videos</div>
+            <div class="channel1"># updates</div>
+            <div class="channel1"># faq</div>
+        </div>
+    
+</body>
+</html>

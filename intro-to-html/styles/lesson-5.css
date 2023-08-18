@@ -1,0 +1,229 @@
+
+    p {
+      font-family: Roboto;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  
+    .video-stats {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 20px;
+    }
+  
+    .video-title {
+      font-weight: bold;
+      font-size: 18px;
+      width: 280px;
+      line-height: 24px;
+      margin-bottom: 5px;
+    }
+  
+    .video-author {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      margin-bottom: 20px;
+    }
+  
+    .video-description {
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+      width: 280px;
+      line-height: 22px;
+      margin-bottom: 100px;
+    }
+  
+    .apple-text {
+      margin-bottom: 50px;
+      font-size: 14px;
+      background-color: rgb(227, 65, 64);
+      color: white;
+      text-align: center;
+      padding-top: 18px;
+      padding-bottom: 18px;
+    }
+  
+    .span-example {
+      color: red;
+    }
+  
+    .span-example:hover {
+      text-decoration: underline;
+    }
+  
+    .shop-link {
+      cursor: pointer;
+    }
+  
+    .shop-link:hover {
+      text-decoration: underline;
+    }
+
+    .Tahoma {
+      margin-top: 40px;
+      font-family: Tahoma;
+      font-weight: bold;
+      font-size: 25px;
+    }
+
+    .Arial {
+      font-family: Arial;
+      font-weight: bold;
+      font-size: 25px;
+      margin-top: 20px;
+    }
+
+    .Sales {
+      color: red;
+      font-style: italic;
+      font-family: Arial;
+      font-size: 17px;
+      font-weight: normal;
+      display: block;
+      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+
+    .Verdana {
+      font-family: verdana;
+      font-weight: bold;
+      font-size: 20px;
+    }
+
+    .Beginner {
+      font-weight: normal;
+      margin-top: 7px;
+      display: block;
+      color: rgb(87, 87, 87);
+      font-size: 18px;
+
+    }
+  
+    .developer {
+      font-weight: normal;
+    }
+
+    .get-started-button {
+      margin-top: 20px;
+      background-color: green;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      padding: 8px 16px 8px 16px;
+    }
+
+    .shopping {
+      font-family: arial;
+      font-weight: bold;
+      font-size: 26px;
+      text-align: center;
+    }
+
+    .apple {
+      font-weight: normal;
+      font-size: 16px;
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: -10px;
+      display: block;
+
+    }
+
+    .learn {
+      font-size: 16px;
+      color: rgb(20, 75, 226);
+      text-decoration: none;
+      font-weight: normal;
+    }
+
+    .new {
+      color: chocolate;
+      font-family: arial;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .macbook {
+      font-weight: bold;
+      font-family: arial;
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
+
+    .super {
+      font-weight: bold;
+      font-family: arial;
+      font-size: 30px;
+      margin-bottom: 10px;
+    }
+
+    .from {
+      margin-bottom: 10px;
+    }
+
+    .buy {
+      color: white;
+      background-color: rgb(0, 119, 255);
+      border-radius: 15px;
+      border: none;
+      padding: 8px 14px 8px 14px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+
+    .geld {
+      font-weight: bold;
+      font-family: arial;
+      font-size: 35px;
+      }.usd {
+      font-weight: bold;
+      font-family: arial;
+      font-size: 15px;
+      margin-left: 10px;
+    }.procent {
+      display: block;
+      font-family: arial;
+      font-size: 20px;
+      margin-top: 10px;
+      color: green;
+      margin-bottom: -10px;
+    }.after {
+      
+      font-family: arial;
+      font-size: 25px;
+      
+    }.rood {
+     
+      font-family: arial;
+      font-size: 25px;
+      color: rgb(151, 0, 0);
+      margin-left: 8px;
+      
+    }
+
+    .free {
+      font-size: 20px;
+    }
+    .hour {
+      font-size: 20px;
+    }
+
+    .navigate-text {
+      font-size: 25px;
+      width: 800px;
+      line-height: 35px;
+      margin-top: 12px;
+      margin-bottom: 30px;
+    }
+    .here {
+      font-size: 25;
+    }
+    .skills {
+      color: rgb(0, 110, 255);
+      margin-right: 8px;
+      
+    }
+    .outlines {
+      font-size: 25px;
+    }
+

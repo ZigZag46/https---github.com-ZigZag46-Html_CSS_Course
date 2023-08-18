@@ -1,0 +1,160 @@
+
+
+.video-preview {
+   
+} 
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+
+.thumbnail {
+    width: 100%;
+}
+
+.video-title {
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.video-author, 
+.video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+} 
+
+.video-author {
+    margin-bottom: 4px;
+    text-decoration: none;
+}
+
+.video-info {
+    
+}
+
+.profile-picture {
+    width: 36px;
+    border-radius: 50%;
+}
+
+.thumnail-row {
+    margin-bottom: 8px;
+    position: relative;
+}
+
+.video-time {
+    font-size: 12px;
+    background-color: black;
+    position: absolute;
+    color: white;
+    right: 6px;
+    bottom: 8px;
+    padding: 4px 4px;
+    font-weight: 500;
+    border-radius: 2px;
+}
+
+.video-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 16px;
+    row-gap: 26px;
+}
+
+@media (max-width: 800px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1201px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 999) {
+    .video-title
+    .video-author {
+        font-size: 14px;
+    }
+}
+@media (min-width: 1000px) {
+    .video-title {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+
+
+.channel-picture  {
+    display: inline-block;
+    position: relative;
+}
+
+.img-tooltip {
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.channel-picture .channel-picture-tooltip {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.30);
+    width: 200px;
+    border-radius: 6px;
+    align-items: center;
+    z-index: 400;
+    background-color: white;
+    display: flex;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.15s;
+    top: 55px;
+    padding: 12px 12px;
+}
+
+.channel-picture:hover .channel-picture-tooltip {
+    opacity: 1;
+}
+
+.tooltip-authur {
+    font-weight: 600;
+}
+
+.subscriber-count {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.video-link {
+    text-decoration: none;
+    color: black;
+}
+
+.video-link:hover :active :focus :visited {
+    color: black;
+    text-decoration: none;
+}
+
+.channel-link {
+    text-decoration:none;
+    color: inherit;   
+}
+
